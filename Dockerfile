@@ -1,5 +1,3 @@
-FROM ubuntu
-WORKDIR /app
-COPY . /app
-CMD ["python", "app.py"]
+FROM ubuntu/apache2
+COPY . /var/www/html
 EXPOSE 85
