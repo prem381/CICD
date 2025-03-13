@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM ubuntu
 WORKDIR /app
 COPY . /app
 CMD ["python", "app.py"]
